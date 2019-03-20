@@ -123,9 +123,9 @@ def createMessageWithAttachment(
     return {'raw': base64.urlsafe_b64encode(message.as_string())}
 
 def main():
-    user= "Marcus Hibell"
-    to = "marcus.mjh@gmail.com"
-    sender = "marcus.mjh@gmail.com"
+    user= "xxx"
+    to = "xxx"
+    sender = "xxx"
     subject = "Welcome " + user + " to the Medical Data Hub"
     msgHtml = """
 <head>
